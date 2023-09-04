@@ -10,7 +10,7 @@ import { FaJava } from "react-icons/fa";
 import { SiCsharp } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { SiFlask } from "react-icons/si";
+import { DiDotnet } from "react-icons/di";
 import { FaPython } from "react-icons/fa";
 
 const Experience = () => {
@@ -98,9 +98,9 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <SiFlask className="experience__details-icon"/>
+              <DiDotnet className="experience__details-icon"/>
               <div>
-                <h4>Flask</h4>
+                <h4>.NET</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

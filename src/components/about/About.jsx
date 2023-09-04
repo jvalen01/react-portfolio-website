@@ -22,23 +22,24 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
+              <small>6+ Years Programming</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
+            </article>
+            <article className='about__card'>
+              <FiUsers className='about__icon'/>
+              <h5>Interests</h5>
+              <small>Web Apps, Machine Learning
+              </small>
             </article>
           </div>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Sapiente ut, accusamus itaque distinctio ea ab sequi repellat modi voluptatibus sunt corrupti harum ipsa sint porro, 
-            tempora dolores quo laboriosam labore.
+          <p>
+          Hi there! My name is Jonatan and I am a software developer. I have a background in computer technology and software engineering.
+          I have been programming for over 6 years and have had two summer internships as a software developer. I have worked with many different languages and frameworks.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
