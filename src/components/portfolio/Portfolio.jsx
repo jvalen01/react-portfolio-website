@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/tradingg.jpeg";
 import IMG2 from "../../assets/gg.jpeg";
 import IMG3 from "../../assets/app1.jpeg";
-import IMG4 from "../../assets/port1.png";
+import IMG4 from "../../assets/tradingIndicator.png";
 import IMG5 from "../../assets/port1.png";
 import IMG6 from "../../assets/port1.png";
 
@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     img: IMG1,
-    title: "Trading Indicators",
+    title: "Tradingview Indicators",
     github: "https://github.com/jvalen01/Trading",
     demo: "https://github.com/jvalen01"
   },
@@ -27,6 +27,13 @@ const data = [
     img: IMG3,
     title: "Messaging App",
     github: "https://github.com/jvalen01/MessagingApp",
+    demo: "https://github.com/jvalen01"
+  },
+  {
+    id: 4,
+    img: IMG4,
+    title: "Stock Data Website",
+    github: "https://github.com/jvalen01/stock-data-website",
     demo: "https://github.com/jvalen01"
   }
 ];

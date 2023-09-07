@@ -38,17 +38,6 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Doesnt work right now</h5>
-            <a
-              href="https://m.me/profile.php?id=100008296033317"
-              target="_blank"
-            >
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <a href="https://wa.me/4791890484" target="_blank">
