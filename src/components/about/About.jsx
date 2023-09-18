@@ -32,14 +32,15 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Interests</h5>
-              <small>Web Apps, Machine Learning
+              <small>System and web development, machine learning
               </small>
             </article>
           </div>
 
           <p>
-          Hi there! My name is Jonatan and I am a software developer. I have a background in computer technology and software engineering.
-          I have been programming for over 6 years and have had two summer internships as a software developer. I have worked with many different languages and frameworks.
+          Hi there! My name is Jonatan and I am a software developer. I hold a bachelor’s degree in computer technology and am currently in my first semester of a master’s 
+          degree in software engineering. 
+          I have been programming for over 6 years and have had two summer internships as a software developer. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

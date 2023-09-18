@@ -3,9 +3,9 @@ import "./portfolio.css";
 import IMG1 from "../../assets/tradingg.jpeg";
 import IMG2 from "../../assets/gg.jpeg";
 import IMG3 from "../../assets/app1.jpeg";
-import IMG4 from "../../assets/tradingIndicator.png";
-import IMG5 from "../../assets/port1.png";
-import IMG6 from "../../assets/port1.png";
+import IMG4 from "../../assets/euro.jpg";
+import IMG5 from "../../assets/abc.jpg";
+import IMG6 from "../../assets/meme.png";
 
 const data = [
   {
@@ -35,6 +35,13 @@ const data = [
     title: "Stock Data Website",
     github: "https://github.com/jvalen01/stock-data-website",
     demo: "https://github.com/jvalen01"
+  },
+  {
+    id: 5,
+    img: IMG5,
+    title: "Meme App",
+    github: "https://github.com/jvalen01/MemeApp",
+    demo: "https://github.com/jvalen01"
   }
 ];
 
@@ -59,13 +66,6 @@ const Portfolio = () => {
                   target="_blank"
                 >
                   Github
-                </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
                 </a>
               </div>
             </article>

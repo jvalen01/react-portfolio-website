@@ -12,6 +12,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";
 import { FaPython } from "react-icons/fa";
+import { BiLogoJquery } from "react-icons/bi";
 
 const Experience = () => {
   return (
@@ -47,7 +48,7 @@ const Experience = () => {
               <FaReact className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -55,6 +56,13 @@ const Experience = () => {
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BiLogoJquery className="experience__details-icon" />
+              <div>
+                <h4>JQuery</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
