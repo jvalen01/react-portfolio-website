@@ -1,6 +1,6 @@
 # Personal portfolio website using React
 
-Link to website: jonatanvalen.com
+Link to website: https://jonatanvalen.com
 
 ## Available Scripts
 
