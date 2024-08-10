@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/picItaly.JPG'
+import ME from '../../assets/me.PNG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -22,7 +22,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>6+ Years Programming</small>
+              <small>7+ Years Programming</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
@@ -32,15 +32,15 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Interests</h5>
-              <small>System and web development, machine learning
+              <small>System and Web Development, Stock Trading
               </small>
             </article>
           </div>
 
           <p>
-          Hi there! My name is Jonatan and I am a software developer. I hold a bachelor’s degree in computer technology and am currently in my first semester of a master’s 
+          Hi there! My name is Jonatan and I am a software developer. I hold a bachelor’s degree in computer technology and I'm currently on my second year of a master’s 
           degree in software engineering. 
-          I have been programming for over 6 years and have had two summer internships as a software developer. 
+          I have been programming for over 7 years and have had 3 summer internships as a software developer. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

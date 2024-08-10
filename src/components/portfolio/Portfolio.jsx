@@ -5,7 +5,7 @@ import IMG2 from "../../assets/gg.jpeg";
 import IMG3 from "../../assets/app1.jpeg";
 import IMG4 from "../../assets/euro.jpg";
 import IMG5 from "../../assets/abc.jpg";
-import IMG6 from "../../assets/meme.png";
+import IMG6 from "../../assets/voting.jpg";
 
 const data = [
   {
@@ -41,6 +41,13 @@ const data = [
     img: IMG5,
     title: "Meme App",
     github: "https://github.com/jvalen01/MemeApp",
+    demo: "https://github.com/jvalen01"
+  },
+  {
+    id: 6,
+    img: IMG6,
+    title: "Voting App",
+    github: "https://github.com/jvalen01/FeedbackApp",
     demo: "https://github.com/jvalen01"
   }
 ];
